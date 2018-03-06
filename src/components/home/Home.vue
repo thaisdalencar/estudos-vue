@@ -5,7 +5,7 @@
       <div class="left-title">
         <div class="centralize">
           <!-- <img class="logo-name" src="../../imagems/main.png" alt=""> -->
-          <img class="logo-name" src="https://raw.githubusercontent.com/thaisdalencar/thaisdalencar.github.io/master/docs/logo-flag.png" alt="">
+          <img class="logo-name" src="https://raw.githubusercontent.com/thaisdalencar/thaisdalencar.github.io/master/src/imagems/main.png" alt="">
         </div>
       </div>
       <div  class="right-title">
