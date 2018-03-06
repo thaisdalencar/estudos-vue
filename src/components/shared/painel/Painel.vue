@@ -1,18 +1,17 @@
 <template>
 
-    <div class="painel">
+    <div @click="disparaAcao()" :class="changeStyle">
       <transition name="painel-fade">
         <div class="painel-conteudo" v-show="visibily">
           <slot v-show="activeCard"></slot>
         </div>
       </transition>
-      <h2
+      <div
         @dblclick="visibily = !visibily"
-        :class="changeStyle"
-        @click="disparaAcao()">
-        <h1 v-if="activeCard"> {{ titulo }}</h1>
-        <h1 v-else>?</h1>
-      </h2>
+        >
+        <p v-if="activeCard"> {{ titulo }}</p>
+        <p v-else class="close-card">?</p>
+      </div>
 
     </div>
 
@@ -42,7 +41,9 @@ export default {
   computed: {
     changeStyle() {
       if (this.activeCard) {
-        return 'select-item';
+        return 'painel';
+      } else {
+        return 'painel color-close-card';
       }
     }
   }
@@ -61,11 +62,17 @@ export default {
  vertical-align: top;
  text-align: center;
  border-radius: 3px;
- /* background-color: #FFC107; */
+
 }
 
-.select-item {
- /* background-color: red; */
+.color-close-card {
+  background-color: #FFC107;
+}
+
+.close-card {
+  font-size: 70px;
+  font-weight: bold;
+  margin: 76px 0;
 }
 
 .painel .painel-titulo {
