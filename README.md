@@ -1,18 +1,17 @@
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/thaisdalencar/thaisdalencar.github.io/master/src/imagems/logo-flag.png" alt="FrontEndBR" width="180" />
-</p>
-
-<img src="https://avatars1.githubusercontent.com/u/3846050?v=4&s=200" width="127px" height="127px" align="left"/>
+<img src="https://raw.githubusercontent.com/thaisdalencar/thaisdalencar.github.io/master/src/imagems/logo-flag.png" width="127px" height="127px" align="left"/>
 
 *Hey Folks!*
 
 So, this is a super basic memory game developed for my studies in Vue.js.
-Any bug or suggestion, please [let me an know] (https://github.com/thaisdalencar/thaisdalencar.github.io/issues).
+Any bug or suggestion, please [let me an know](https://github.com/thaisdalencar/thaisdalencar.github.io/issues).
 
 Now, join the game and good luck!
 
-[PLAY] (https://thaisdalencar.github.io/)
+## Try it
+
+[PLAY](https://thaisdalencar.github.io/)
+
 
 ## Build Setup
 
