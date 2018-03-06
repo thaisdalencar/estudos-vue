@@ -1,5 +1,5 @@
 
-<img src="https://raw.githubusercontent.com/thaisdalencar/thaisdalencar.github.io/master/src/imagems/logo-flag.png" width="200px" height="127px" align="left"/>
+<img src="https://raw.githubusercontent.com/thaisdalencar/thaisdalencar.github.io/master/src/imagems/logo-flag.png"  align="center"/>
 
 *Hey Folks!*
 
