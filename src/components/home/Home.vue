@@ -104,6 +104,12 @@ export default {
         {"flag":"https://restcountries.eu/data/alb.svg","name":"Albania","capital":"Tirana"},
         {"flag":"https://restcountries.eu/data/dza.svg","name":"Algeria","capital":"Algiers"},
         {"flag":"https://restcountries.eu/data/asm.svg","name":"American Samoa","capital":"Pago Pago"},
+        {"flag":"https://restcountries.eu/data/and.svg","name":"Andorra","capital":"Andorra la Vella"},
+        {"flag":"https://restcountries.eu/data/afg.svg","name":"Afghanistan","capital":"Kabul"},
+        {"flag":"https://restcountries.eu/data/ala.svg","name":"Åland Islands","capital":"Mariehamn"},
+        {"flag":"https://restcountries.eu/data/alb.svg","name":"Albania","capital":"Tirana"},
+        {"flag":"https://restcountries.eu/data/dza.svg","name":"Algeria","capital":"Algiers"},
+        {"flag":"https://restcountries.eu/data/asm.svg","name":"American Samoa","capital":"Pago Pago"},
         {"flag":"https://restcountries.eu/data/and.svg","name":"Andorra","capital":"Andorra la Vella"}
       ].map(i => {
         i.select = false;
